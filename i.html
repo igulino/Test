@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kanban dicria</title>
+</head>
+<body>
+    <style>
+       .kaban{
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+        }
+        #Inpwindow{
+            display: block;
+            border-color: black;
+            margin-left: 300px;
+            border-radius: 3px;
+            width: 300px;
+            height: 30px;
+        }
+    </style>
+    <div id="todo" class="kaban">todo <button class="adc" id="a">adicione...</button></div>
+    <div id="doing" class="kaban">doing <button class="adc" id="b">adicione...</button></div>
+    <div id="done" class="kaban">done <button class="adc" id="c">adicione...</button></div>
+
+    <div id="Inpwindow">
+        escreva algo:   
+        <input type="text" id="info">
+        <button id="cancel">canclar...</button><button id="conf">confirmar...</button>
+    </div>
+</body>
+<script src="./j.js"></script>
+</html>
